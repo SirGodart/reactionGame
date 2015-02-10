@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Learning Javascript</title>
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <link href='http://fonts.googleapis.com/css?family=Quantico:400' rel='stylesheet' type='text/css'>
+
+ <link rel="stylesheet" href="css/reset.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/style2.css">
+<!-- <script src="js/modernizr.js"></script> -->
+ <!--<script src="js/und.js"></script> -->
+
+
+ </head>
+
+<body>
+
+<div id="text">
+<h3>Reaction game</h3>
+
+<p>Current reaction time: <span id="time">0</span>s</p>
+</div>
+<div id="box"></div>
+<div id="insideBox" class="cd-popup-trigger"></div>
+
+<div id="popup"></div>
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+
+<div class="cd-popup" role="alert">
+	<div class="cd-popup-container">
+	    <p>Your total time is: <span id="score"></span>s <br/>
+	    Your average time is: <span id="average"></span>s <br/>  
+Good game! Play again?
+	    </p>
+	
+		<ul class="cd-buttons">
+			<li><a href="index.html">Yes</a></li>
+			<li><a href="#0">No</a></li>
+		</ul>
+		<a href="#0" class="cd-popup-close img-replace">Close</a>
+	</div> <!-- cd-popup-container -->
+</div> <!-- cd-popup -->
+
+
+<script src="js/reaction.js"></script>
+<script src="js/sketch.js"></script>
+<script src="js/particle.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+
+  </body>
+</html>
